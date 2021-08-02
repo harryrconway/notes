@@ -37,3 +37,6 @@ inputEl.addEventListener('keypress', function (e) {
         save()
     }
 });
+
+// Todo - save notes to localStorage
+//      - delete notes that you don't need
