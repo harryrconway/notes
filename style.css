@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Gowun Dodum", sans-serif;
+  background: whitesmoke;
+}
+
+#aside {
+  background: white;
+  height: 100vh;
+  width: 40vw;
+}
+
+#save-el {
+  width: 150px;
+  height: 50px;
+  font-size: 24px;
+  background: rgb(41, 133, 203);
+  color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+#save-el:hover {
+  color: black;
+  background: whitesmoke;
+  transition-duration: 0.5s;
+}
+
+#p {
+  position: absolute;
+  background: white;
+  top: 40px;
+  left: 50px;
+  font-weight: bold;
+  border-bottom: solid black 1px;
+}
+
+#create {
+  position: absolute;
+  background: white;
+  top: 80px;
+  left: 80px;
+  font-size: 44px;
+}
+
+#share {
+  background: white;
+  font-weight: bold;
+  font-size: 55px;
+  left: 80px;
+}
+
+#input-el {
+  position: absolute;
+  top: 70px;
+  left: 45%;
+  border: none;
+  outline: none;
+  font-size: 44px;
+  width: 450px;
+  font-weight: bold;
+}
+
+#save-el {
+  position: absolute;
+  top: 80vh;
+  left: 80%;
+}
+
+#clock {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  font-size: 24px;
+}
+
+#notes-img {
+  position: absolute;
+  top: 300px;
+  left: 40px;
+  width: 420px;
+  height: 300px;
+  background: white;
+}
+
+#ul-el {
+  position: absolute;
+  top: 30vh;
+  left: 45%;
+}
+
+li {
+  font-size: 22px;
+}
