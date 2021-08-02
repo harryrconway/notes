@@ -23,7 +23,6 @@ const ulEl = document.getElementById('ul-el')
 saveEl.addEventListener('click', save)
 inputEl.focus()
 
-
 function save() {
     if (inputEl.value === '') {
     } else {
