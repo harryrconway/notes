@@ -19,6 +19,7 @@ startTime()
 const inputEl = document.getElementById('input-el')
 const saveEl = document.getElementById('save-el')
 const ulEl = document.getElementById('ul-el')
+const del = document.getElementById('delete-el');
 
 saveEl.addEventListener('click', save)
 inputEl.focus()
@@ -37,6 +38,13 @@ inputEl.addEventListener('keypress', function (e) {
         save()
     }
 });
+
+del.addEventListener('click', () => {
+    ulEl.innerHTML = ''
+    inputEl.focus()
+})
+
+
 
 // Todo - save notes to localStorage
 //      - delete notes that you don't need

@@ -30,6 +30,24 @@
   transition-duration: 0.5s;
 }
 
+#delete-el {
+  width: 150px;
+  height: 50px;
+  font-size: 24px;
+  background: rgb(222, 92, 36);
+  color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+#delete-el:hover {
+  color: black;
+  background: whitesmoke;
+  transition-duration: 0.5s;
+}
+
 #p {
   position: absolute;
   background: white;
@@ -68,6 +86,12 @@
 #save-el {
   position: absolute;
   top: 80vh;
+  left: 80%;
+}
+
+#delete-el {
+  position: absolute;
+  top: 90vh;
   left: 80%;
 }
 
