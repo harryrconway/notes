@@ -24,6 +24,8 @@ const del = document.getElementById('delete-el');
 saveEl.addEventListener('click', save)
 inputEl.focus()
 
+localStorage.getItem(inputEl.value)
+
 function save() {
     if (inputEl.value === '') {
     } else {
@@ -43,8 +45,4 @@ del.addEventListener('click', () => {
     ulEl.innerHTML = ''
     inputEl.focus()
 })
-
-
-
 // Todo - save notes to localStorage
-//      - delete notes that you don't need

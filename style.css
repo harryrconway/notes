@@ -120,3 +120,77 @@
 li {
   font-size: 22px;
 }
+
+@media only screen and (max-width: 1153px) {
+  * {
+    background: white;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  #input-el {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+  }
+  #create {
+    position: absolute;
+    top: 100%;
+    left: 50px;
+    display: none;
+  }
+  #share {
+    position: absolute;
+    top: 150%;
+    left: 30%;
+    display: none;
+  }
+  #notes-img {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    z-index: 1;
+  }
+  #save-el {
+    position: absolute;
+    top: 70%;
+    left: 65%;
+  }
+  #delete-el {
+    position: absolute;
+    top: 80%;
+    left: 65%;
+  }
+  #ul-el {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #notes-img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #input-el {
+    font-size: 12px;
+    padding-left: 35px;
+  }
+  #clock {
+    font-size: 12px;
+    padding-right: 25px;
+  }
+  #delete-el {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+  }
+  #save-el {
+    position: absolute;
+    top: 50%;
+    left: 25;
+  }
+}
